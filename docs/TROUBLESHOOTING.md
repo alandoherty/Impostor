@@ -39,7 +39,7 @@ Look at which version of the game you're playing, which you can see in the top l
 ## Disconnected with `You disconnected from the server. Reliable Packet 1 ...`
 
 Please double-check that you have followed the [Server Configuration](Server-configuration.md) correctly.
-**NOTE: Your public ip does not start with `10`, `127` or `192`**
+**NOTE: Your public ip does not start with `10`, `127`, `192.168` or `172.16 -> 172.31`**
 Also check if the port Impostor (ListenPort) is listening on is correctly port-forwarded for UDP (or TCP/UDP).
 
 ## `Could not load file or assembly...`
